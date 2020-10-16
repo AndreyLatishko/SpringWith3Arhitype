@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercises</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h2>List of exercises</h2>
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>idlesson</th>
+        <th>dateOfTheLesson</th>
+        <th>topic</th>
+        <th>formOfOccupation</th>
+    </tr>
+    <tr>
+        <td>${exercise.id}</td>
+        <td>${exercise.idlesson}</td>
+        <td>${exercise.dateOfTheLesson}</td>
+        <td>${exercise.topic}</td>
+        <td>${exercise.formOfOccupation}</td>
+    </tr>
+</table>
+</body>
+</html>
